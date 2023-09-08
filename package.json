@@ -3,19 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "start": "node ./bin/www"
   },
   "dependencies": {
+    "node":"~20.6.0",
+    "npm":"~9.8.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1",
-    "netlify-lambda": "^1.4.3",
-    "node": "~20.6.0",
-    "npm": "~9.8.1",
-    "serverless-http": "^1.9.1"
+    "morgan": "~1.9.1"
+    
   }
 }
