@@ -28,6 +28,3 @@ app.listen(port, () => {
 })
 
 app.use('/static', express.static(path.join(__dirname, 'static')))
-
-
-
