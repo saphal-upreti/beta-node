@@ -80,11 +80,11 @@ footer {
 /* new code  */
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 3em;
   margin-left: 3em;
 }
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 8em;
 }
 .section-title {
   margin-bottom: 60px;
