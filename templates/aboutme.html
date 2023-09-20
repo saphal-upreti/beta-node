@@ -6,15 +6,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
+    <script src="/static/JavaScript/aboutme.js"></script>
   </head>
-  <script src="/static/JavaScript/aboutus.js"></script>
   <body>
     <div class="nav-bar">
       <ul class="nav-bar-component">
-        <li class="aboutme" onclick="aboutme()">About me</li>
-        <li class="myPort" onclick="myPort()">My Portofolio</li>
-        <li id="resume">Resume</li>
-        <li id="contact">Contact me</li>
+        <li class="aboutme">
+          <a class="link" href="/aboutme"> About me </a>
+        </li>
+        <li class="myPort">
+          <a class="link" href="/MyPortofolio">My Portofolio</a>
+        </li>
+        <li class="resume">
+          <a class="link" href="/resume">Resume</a>
+        </li>
+        <li class="contact">
+          <a class="link" href="/contact">Contact me</a>
+        </li>
       </ul>
     </div>
 
@@ -25,8 +33,8 @@
       rel="stylesheet"
       id="bootstrap-css"
     />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!------ Include the above in your HEAD tag ---------->
 
     <link
@@ -50,16 +58,14 @@
                 <div class="timeline_content">
                   <span>2021-2023</span>
                   <h4>President</h4>
-                  <p>
-                    STEM Club Aroma
-                  </p>
+                  <p>STEM Club Aroma</p>
                 </div>
               </li1>
               <!-- Single Experience -->
               <li1>
                 <div class="timeline_content">
                   <span>2021-2023</span>
-                  <h4> Aroma English Secondary School</h4>
+                  <h4>Aroma English Secondary School</h4>
                 </div>
               </li1>
               <!-- Single Experience -->
@@ -67,9 +73,7 @@
                 <div class="timeline_content">
                   <span>2019-2021</span>
                   <h4>Community Service director / IT Director</h4>
-                  <p>
-                    Interact Club of LFS
-                  </p>
+                  <p>Interact Club of LFS</p>
                 </div>
               </li1>
               <!-- Single Experience -->
@@ -95,9 +99,20 @@
     <!-- new code ends -->
 
     <footer>
+
       <div class="footer-element">
         <!-- footer code -->
-        <!-- hi -->
+        <div class="footer-text">
+          ©Saphal
+        </div>
+        <div class="social-contacts">
+          <a href="mailto:saphalupreti95@gmail.com"><img class="contact-logo" src="/static/images/mail.png" alt=""></a>
+          <a href="https://github.com/saphal-upreti" target="_blank"><img class="contact-logo" src="/static/images/github.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/saphal-upreti-099303261/" target="_blank"><img class="contact-logo" src="/static/images/linkedin.png" alt=""></a>
+          <a href="https://twitter.com/UpretiSafal" target="_blank"><img class="contact-logo" src="/static/images/twitter.png" alt=""></a>
+          <a href="https://www.youtube.com/@wireless_130" target="_blank"><img class="contact-logo" src="/static/images/youtube.png" alt=""></a>
+
+        </div>
       </div>
       <div class="footer-obj">
         <svg
