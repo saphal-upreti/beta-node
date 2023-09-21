@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -22,7 +22,7 @@ body{
   display: inline-flex;
   position: relative;
   /* z-index: 1; */
-  margin: auto;
+  /* margin: auto; */
   margin-top: 1vh;
 }
 .nav-bar-component {
@@ -81,7 +81,6 @@ footer {
   margin-bottom: 1em;
   flex-direction: row-reverse;
 }
-
 
 /* new code  */
 
@@ -190,31 +189,75 @@ ul.timeline-list li1:before {
   color: #446db6;
 }
 
-li1{
+li1 {
   display: inline-flex;
   flex-direction: row-reverse;
 }
 
-.link:hover{
+.link:hover {
   color: #446db6;
   text-decoration: none;
 }
 
-
-a:visited{
+a:visited {
   color: #446db6;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
-.contact-logo{
+.contact-logo {
   height: 8vh;
   width: 8vh;
 }
 
-.footer-text{
+.footer-text {
   font-size: 8vh;
-  color: white
+  color: white;
+}
+h1 {
+  margin: auto;
+}
+
+.work-image {
+  display: flex;
+  justify-content: space-evenly;
+}
+.work-image {
+  width: 20vw;
+  height: 20vh;
+  /* margin: auto; */
+}
+
+.work-container {
+  position: relative;
+  top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-around;
+}
+.work-container:has(.work-image:nth-last-child(n + 2)) {
+  justify-content: space-around;
+}
+
+.works {
+  position: relative;
+  top: 2em;
+  display: flex;
+  padding-left: 10em;
+  padding-right: 10em;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* *{
+  color: #446db6;
+} */
+
+@media screen and (max-width: 750px){
+  .contact-logo{
+      size: 10em;
+  }   
 }
