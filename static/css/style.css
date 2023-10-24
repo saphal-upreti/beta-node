@@ -235,9 +235,10 @@ h1 {
   color: #446db6;
 } */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 400px) {
   .contact-logo {
-    size: 10em;
+    width: 6vh;
+    height: 6vh;
   }
 }
 
@@ -403,6 +404,7 @@ h1 {
     width: 5em;
   }
 }
+
 
 .none{
   display: none;
