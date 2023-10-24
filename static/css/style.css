@@ -260,7 +260,7 @@ h1 {
   row-gap: 5px;
   flex-direction: column;
 }
-.contain-img {
+.design-img {
   display: inline-flex;
   flex-wrap: wrap;
   row-gap: 5px;
