@@ -44,3 +44,6 @@ svg rect{
     opacity: .8;
 }
 
+*{
+    font-family: nav-font;
+}
