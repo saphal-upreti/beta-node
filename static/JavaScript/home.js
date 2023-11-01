@@ -1,7 +1,7 @@
 document.getElementById("html").addEventListener(
   "click",
   (transit = () => {
-    document.getElementById("svgText").style.fontSize = 400;
+    document.getElementById("svgText").style.fontSize = 340;
     setTimeout(nextPage, 400);
   })
 );
