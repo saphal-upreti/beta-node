@@ -4,7 +4,7 @@ about = () => {
   window.open("aboutme", "_self");
 };
 myPort = () => {
-  window.open("MyPortofolio", "_self");
+  window.open("myportfolio", "_self");
 };
 resume = () => {
   window.open("resume", "_self");
@@ -38,7 +38,7 @@ designs=()=> {
 if (address=="aboutme") {
   document.getElementById("aboutme").style.fontWeight = "bold";
 }
-if (address=="MyPortofolio") {
+if (address=="myportfolio") {
   document.getElementById("myPort").style.fontWeight = "bold";
 }
 if (address=="resume") {

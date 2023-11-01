@@ -12,8 +12,8 @@ app.get('/aboutme', (req, res) => {
   res.sendFile(path.join(__dirname,'aboutme.html'))
 })
 
-app.get('/MyPortofolio', (req, res) => {
-  res.sendFile(path.join(__dirname,'myPort.html'))
+app.get('/myportfolio', (req, res) => {
+  res.sendFile(path.join(__dirname,'myportfolio.html'))
 })
 
 app.get('/contact', (req, res) => {
