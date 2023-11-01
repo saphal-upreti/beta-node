@@ -1,5 +1,5 @@
 //webaddress
-
+try{
 about = () => {
   window.open("aboutme", "_self");
 };
@@ -23,19 +23,18 @@ const currentURL = window.location.href;
 const parts = currentURL.split("/");
 const address = parts[parts.length - 1];
 
-function select1() {
+showAll=()=> {
   localStorage.setItem("pname", "all");
 }
-function select2() {
+programs=()=> {
   localStorage.setItem("pname", "program");
 }
-function select3() {
+music=()=> {
   localStorage.setItem("pname", "music");
 }
-function select4() {
+designs=()=> {
   localStorage.setItem("pname", "design");
 }
-
 if (address=="aboutme") {
   document.getElementById("aboutme").style.fontWeight = "bold";
 }
@@ -48,18 +47,21 @@ if (address=="resume") {
 if (address=="contact") {
   document.getElementById("contact").style.fontWeight = "bold";
 }
+
 if (localStorage.getItem("pname") == "all") {
-  document.getElementById("p1").style.fontWeight = "bold";
+  document.getElementById("all").style.fontWeight = "bold";
 }
 if (localStorage.getItem("pname") == "program") {
-  document.getElementById("p2").style.fontWeight = "bold";
+  document.getElementById("program").style.fontWeight = "bold";
 }
 if (localStorage.getItem("pname") == "music") {
-  document.getElementById("p3").style.fontWeight = "bold";
+  document.getElementById("music").style.fontWeight = "bold";
 }
 if (localStorage.getItem("pname") == "design") {
-  document.getElementById("p4").style.fontWeight = "bold";
+  document.getElementById("designs").style.fontWeight = "bold";
 }
 
-
-
+}
+catch(error){
+  console.log("error")
+}

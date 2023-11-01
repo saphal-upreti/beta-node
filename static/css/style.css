@@ -254,6 +254,12 @@ h1 {
   row-gap: 5px;
   flex-direction: column;
 }
+.music-img {
+  display: inline-flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  flex-direction: column;
+}
 .program-img {
   display: inline-flex;
   flex-wrap: wrap;
@@ -417,4 +423,44 @@ h1 {
 
 #textWork{
   margin-top: 2vh;
+}
+.aboutme{
+  font-size: larger;
+}
+.about-contain{
+  display: inline-flex;
+  padding: 1em;
+  margin: auto;
+}
+#about-img{
+  width: 25em;
+}
+.about-imgcontain{
+  padding: 1em;
+  border: solid #446db6;
+}
+.aboutme{
+  position: relative;
+  left: 1em;
+  color: #446db6;
+  width: 80vh;
+  overflow: visible;
+}
+* {
+  transition: all 0.3s ease;
+  font-family: nav-font;
+}
+
+@media screen and (max-width: 900px) {
+  .about-contain{
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme{
+    width: 80vw;
+  }
+  
+  #about-img{
+    width: 30vw;
+  }
 }
