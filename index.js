@@ -5,23 +5,23 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'/index.html'))
+  res.sendFile(path.join(__dirname,'index.html'))
 })
 
 app.get('/aboutme', (req, res) => {
-  res.sendFile(path.join(__dirname,'/aboutme.html'))
+  res.sendFile(path.join(__dirname,'aboutme.html'))
 })
 
 app.get('/MyPortofolio', (req, res) => {
-  res.sendFile(path.join(__dirname,'/myPort.html'))
+  res.sendFile(path.join(__dirname,'myPort.html'))
 })
 
 app.get('/contact', (req, res) => {
-  res.sendFile(path.join(__dirname,'/contact.html'))
+  res.sendFile(path.join(__dirname,'contact.html'))
 })
 
 app.get('/resume', (req, res) => {
-  res.sendFile(path.join(__dirname,'/resume.html'))
+  res.sendFile(path.join(__dirname,'resume.html'))
 })
 
 app.listen(port, () => {
