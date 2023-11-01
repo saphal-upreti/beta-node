@@ -9,19 +9,19 @@ app.get('/', (req, res) => {
 })
 
 app.get('/aboutme', (req, res) => {
-  res.sendFile(path.join(__dirname,'/templates/aboutme.html'))
+  res.sendFile(path.join(__dirname,'/aboutme.html'))
 })
 
 app.get('/MyPortofolio', (req, res) => {
-  res.sendFile(path.join(__dirname,'/templates/myPort.html'))
+  res.sendFile(path.join(__dirname,'/myPort.html'))
 })
 
 app.get('/contact', (req, res) => {
-  res.sendFile(path.join(__dirname,'/templates/contact.html'))
+  res.sendFile(path.join(__dirname,'/contact.html'))
 })
 
 app.get('/resume', (req, res) => {
-  res.sendFile(path.join(__dirname,'/templates/resume.html'))
+  res.sendFile(path.join(__dirname,'/resume.html'))
 })
 
 app.listen(port, () => {
