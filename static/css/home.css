@@ -20,15 +20,15 @@ body{
     position: absolute;
     font-family: svg-font;
     font-weight: bold;
-    font-size: 10em;
+    font-size: 10vw;
     transition: 1s font-size;
     top: 0;
     left: 0;
     height: 100%;
 }
 @media screen and (max-width: 750px){
-    svg{
-        font-size: 6em;
+    #svgText{
+        font-size: 20vw;
     }   
 }
 
