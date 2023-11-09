@@ -8,7 +8,7 @@ window.onload = (event) => {
       })
     );
   }
-  if (document.documentElement.scrollWidth < 500) {
+  else if (document.documentElement.scrollWidth < 500) {
     document.getElementById("html").addEventListener(
       "click",
       (transit = () => {
