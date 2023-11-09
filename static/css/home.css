@@ -28,7 +28,7 @@ body{
 }
 @media screen and (max-width: 750px){
     #svgText{
-        font-size: 20vw;
+        font-size: 12vw;
     }   
 }
 
