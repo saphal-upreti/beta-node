@@ -65,3 +65,16 @@ if (localStorage.getItem("pname") == "design") {
 catch(error){
   console.log("error")
 }
+
+portLFS = () => {
+  window.open("https://interactcluboflfs.wixsite.com/icolfs");
+};
+luga = () => {
+  window.open("https://luga.onrender.com/");
+};
+told = () => {
+  window.open("https://www.bandlab.com/revisions/b707e32e-036b-ee11-9937-000d3a41ec2a?sharedKey=Y8UVQAF02EqnzQo3563Jgw");
+};
+space = () => {
+  window.open("https://github.com/clerisyutsav47/Celestial-Odyssey");
+};
